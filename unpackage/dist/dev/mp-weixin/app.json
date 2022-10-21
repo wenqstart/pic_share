@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/Home/home",
+    "pages/Find/find",
+    "pages/Send/send",
+    "pages/My/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#39a17c",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#2dc08f",
+    "list": [
+      {
+        "pagePath": "pages/Home/home",
+        "text": "首页",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/Find/find",
+        "text": "发现",
+        "iconPath": "static/tab_icons/find.png",
+        "selectedIconPath": "static/tab_icons/find-active.png"
+      },
+      {
+        "pagePath": "pages/Send/send",
+        "text": "发布",
+        "iconPath": "static/tab_icons/send.png",
+        "selectedIconPath": "static/tab_icons/send-active.png"
+      },
+      {
+        "pagePath": "pages/My/my",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

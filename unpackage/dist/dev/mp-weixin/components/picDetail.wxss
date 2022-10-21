@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.swiper-box {
+  height: 500rpx;
+}
+.swiper-box .swiper-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500rpx;
+  color: #fff;
+}
+.top-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20rpx;
+}
+.top-info .left-info {
+  display: flex;
+  justify-content: space-between;
+}
+.top-info .left-info .nick {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20rpx;
+}
+.top-info .left-info .nick .time {
+  font-size: 14rpx;
+  color: #a3a3a3;
+}
+.top-info .right-info .focus {
+  border: 1px solid #59B091;
+  color: #59B091;
+  border-radius: 20px;
+  background-color: #fff;
+  height: 60rpx;
+  width: 170rpx;
+}
+.title {
+  color: #333333;
+  margin-left: 20rpx;
+}
+.content {
+  color: #383838;
+  margin-left: 20rpx;
+  margin-bottom: 100rpx;
+}
+.comment {
+  padding-bottom: 100rpx;
+}
+.comment .chat-custom-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.comment .chat-custom-right .chat-custom-text {
+  font-size: 12px;
+  color: #999;
+}
+.comment .chat-custom-right .reply {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.comment .chat-custom-right .reply .myReply {
+  font-size: 23rpx;
+  margin-right: 10rpx;
+}
+.comment .chat-custom-right .reply .icon {
+  margin-right: 20rpx;
+}
+.comment .commentTitle {
+  width: 100%;
+  margin-left: 20rpx;
+  color: #a3a3a3;
+  padding: 20rpx 0;
+  border-bottom: 0.5px solid #e2e2e2;
+}
+.comment .commentsList .comment-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.comment .commentsList .comment-item .comment-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.comment .commentsList .comment-item .comment-right {
+  display: flex;
+  align-items: flex-start;
+}
+.comment .commentsList .comment-item .comment-right .create-time {
+  font-size: 14rpx;
+  color: #a3a3a3;
+}
+.bottom {
+  position: fixed;
+  width: 100%;
+  height: 100rpx;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom .comInput {
+  width: 100%;
+}
+.pop {
+  width: 100%;
+  height: 120rpx;
+  background-color: #FFFFFF;
+  display: flex;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.pop .input {
+  padding: 0 10rpx;
+}
+.card-actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20rpx 0;
+  padding: 20rpx 0;
+  border-bottom: 0.5px solid #e2e2e2;
+}
+.card-actions .card-actions-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-actions .card-actions-item .card-actions-item-text {
+  font-size: 25rpx;
+  color: #999;
+  margin-right: 5rpx;
+}
+

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "发现",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 150,
+  "usingComponents": {
+    "pic-list": "/pages/Find/picList",
+    "pic-detail": "/components/picDetail",
+    "login": "/components/login"
+  }
+}

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.navBar {
+  width: 100%;
+  display: flex;
+  /*居中对齐 每个项目两侧的间隔相等*/
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 12px;
+}
+.navBar .title {
+  font-size: 16px;
+}
+.navBar .title .name {
+  padding-bottom: 5rpx;
+  border-bottom: 3px solid #fff;
+}
+.login-container {
+  height: 750rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.login-container .btn-login {
+  color: #59B091;
+  border-radius: 100px;
+  font-size: 40rpx;
+  background-color: #fff;
+  height: 100rpx;
+  width: 70%;
+  margin-bottom: 50rpx;
+}
+.login-container .tips-text {
+  font-size: 12px;
+  color: gray;
+}
+

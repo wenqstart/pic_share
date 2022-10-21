@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.example {
+  padding: 15px;
+  background-color: #fff;
+}
+.example-body {
+  padding: 20rpx;
+}
+.goods-carts {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.uni-mt-5 {
+  margin-top: 5px;
+}
+

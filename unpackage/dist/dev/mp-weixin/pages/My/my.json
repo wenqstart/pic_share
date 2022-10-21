@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "我的",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 150,
+  "usingComponents": {
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "my-login": "/pages/My/components/my-login",
+    "my-register": "/pages/My/components/my-register",
+    "my-user-info": "/pages/My/components/my-userInfo",
+    "my-edit": "/pages/My/components/my-edit",
+    "my-setting": "/pages/My/components/my-setting"
+  }
+}

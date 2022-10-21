@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.navBar {
+  width: 100%;
+  display: flex;
+  /*居中对齐 每个项目两侧的间隔相等*/
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 12px;
+}
+.navBar .title {
+  font-size: 16px;
+}
+.navBar .title .name {
+  padding-bottom: 5rpx;
+  border-bottom: 3px solid #fff;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.card .card-item {
+  width: 100%;
+}
+.card .card-item .card-actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20rpx 0;
+  padding: 20rpx 0;
+  border-top: 0.5px solid #e2e2e2;
+}
+.card .card-item .card-actions .card-actions-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card .card-item .card-actions .card-actions-item .card-actions-item-text {
+  font-size: 25rpx;
+  color: #999;
+  margin-right: 5rpx;
+}
+

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 150,
+  "usingComponents": {
+    "pic-list": "/pages/Home/picList",
+    "pic-detail": "/components/picDetail",
+    "login": "/components/login"
+  }
+}
